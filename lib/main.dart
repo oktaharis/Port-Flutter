@@ -29,7 +29,7 @@ class home extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/backgroundbaru.jpeg"),
+            image: AssetImage("assets/background.jpeg"),
             fit: BoxFit.cover,
           ),
         ),
@@ -110,7 +110,8 @@ class home extends StatelessWidget {
                           style: ElevatedButton.styleFrom(
                             foregroundColor: Colors.white,
                             backgroundColor: Colors.teal,
-                            padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 30, vertical: 15),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30),
                             ),

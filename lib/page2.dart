@@ -27,18 +27,17 @@ class page2 extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Fajar Fauzian',
+              'Okta Haris',
               style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromRGBO(7, 75, 36, 1)),
+                  color: Color.fromARGB(255, 26, 33, 48)),
             ),
             const SizedBox(height: 20),
-
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: const Color.fromRGBO(134, 255, 186, 1),
+                color: const Color.fromARGB(255, 26, 33, 48),
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
@@ -56,17 +55,20 @@ class page2 extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 244, 240, 240),
                     ),
                   ),
                   SizedBox(height: 8),
                   Text(
                     'Im a student at SMK Wikrama Bogor, specializing in Frontend and Web Development. I work with JavaScript, PHP, Vue.js, React.js, Next.js, and Laravel, with experience in building user-friendly web projects.',
+                    style: TextStyle(
+                      color: Color.fromARGB(230, 255, 255, 255)
+                    ),
                   ),
                 ],
               ),
             ),
             const SizedBox(height: 20),
-
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -94,11 +96,11 @@ class page2 extends StatelessWidget {
                   SizedBox(height: 8),
                   Text(
                     '2022 - Current\n'
-                        'SMK Wikrama Bogor\n\n'
-                        '2019 - 2021\n'
-                        'SMP Negeri 02 Cigombong\n\n'
-                        '2013 - 2019\n'
-                        'SD Negeri 03 Cigombong',
+                    'SMK Wikrama Bogor\n\n'
+                    '2019 - 2021\n'
+                    'SMP Negeri 02 Cigombong\n\n'
+                    '2013 - 2019\n'
+                    'SD Negeri 03 Cigombong',
                     style: TextStyle(
                       fontSize: 16,
                     ),
@@ -114,11 +116,10 @@ class page2 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 25),
-
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: const Color.fromRGBO(134, 255, 186, 1),
+                color: const Color.fromARGB(255, 26, 33, 48),
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
@@ -136,6 +137,7 @@ class page2 extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
+                      color: Colors.white,
                     ),
                   ),
                   const SizedBox(height: 20),
@@ -183,7 +185,7 @@ class page2 extends StatelessWidget {
           LinearProgressIndicator(
             value: level,
             backgroundColor: Colors.grey[300],
-            color: const Color.fromARGB(255, 5, 90, 64),
+            color: const Color.fromARGB(255, 26, 33, 48),
           ),
         ],
       ),
